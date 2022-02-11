@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="vn">
+<head>
+  <link rel="icon" href="img/icteam.ico" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/login.css">
+  <script src="./js/login.js"></script>
+  <title>Đăng Nhập</title>
+
+</head>
+<body id="particles-js">
+  <div class="animated bounceInDown">
+    <div class="container">
+      <span class="error animated tada" id="msg"></span>
+      <form name="form1" class="box" onsubmit="return checkStuff()">
+        <h4>IC<span> Education</span></h4>
+        <h5>ĐĂNG NHẬP</h5>
+        <input type="text" placeholder="Email" autocomplete="off">
+        <i class="typcn typcn-eye" id="eye"></i>
+        <input type="password" placeholder="Mật khẩu" id="pwd" autocomplete="off">
+        <label>
+          <input type="checkbox">
+          <span></span>
+          <small class="rmb">Ghi nhớ đăng nhập</small>
+        </label>
+        <!-- <a href="#" class="forgetpass">Quên mật khẩu</a> -->
+        <a href="reset.html" class="forgetpass">Quên mật khẩu?</a>
+        <!-- <input type="submit" value="Đăng Nhập" class="btn1"> -->
+        <button type="submit" value="Đăng Nhập" class="btn1">Đăng Nhập</button>
+      </form>
+    </div>
+</div>
+</body>
+</html>
